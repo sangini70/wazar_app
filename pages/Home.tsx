@@ -48,7 +48,7 @@ const Home: React.FC = () => {
               rel="noopener noreferrer"
               className="px-8 py-4 bg-blue-600 text-white rounded-full font-semibold hover:bg-blue-700 transition flex items-center justify-center gap-2"
             >
-              체험팩 구매하기 <ArrowRight className="w-4 h-4" />
+              구매하기 <ArrowRight className="w-4 h-4" />
             </a>
             <Link 
               to="/story" 
