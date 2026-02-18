@@ -1,13 +1,10 @@
-<!doctype html>
-<html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WAZRA WATER | 프리미엄의 기준</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <!-- 엔트리 파일: 현재 리포에 index.tsx가 있으니 이 경로가 맞다 -->
-    <script type="module" src="/index.tsx"></script>
-  </body>
-</html>
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App'
+import './index.css'
+
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)
